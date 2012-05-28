@@ -1,0 +1,83 @@
+/* 
+  Localizable.strings
+  TransportProject
+
+  Created by Artem Umanets on 3/17/12.
+  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+*/
+
+"AppName" = "Passe Lembrete";
+
+/* Config Cells */
+"Transportation Type (%@)" = "Tipo de transporte (%@)";
+"Owner" = "Proprietário";
+"Owner's name" = "Nome do proprietário";
+"Owner's Photo" = "Foto do proprietário";
+"Company" = "Empresa";
+"Company Name" = "Nome da empresa";
+"Renew" = "Renovação";
+"Never" = "Nunca";
+"Renew Date" = "Renovação do passe";
+"Pass Type" = "Tipo do passe";
+"Monthly" = "Mensal";
+"Tickets" = "Viagens";
+"Valid Until" = "Válido até";
+"Pass Expiration Date" = "Data de validade do passe";
+"No. of Trips" = "Num. de viagens";
+"Number of Trips" = "Número de viagens";
+
+/* Transportation Types */
+"Transportation type" = "Tipo de transporte";
+"Bus" = "Autocarro";
+"Train" = "Comboio";
+"Subway" = "Metro";
+"Boat" = "Barco";
+"Tram" = "Eléctrico";
+"Plane" = "Avião";
+
+/* Utils formatting */
+"(for 0 days)" = "(por 0 dias)";
+"(for 1 day)" = "(por 1 dia)";
+"(for %d days)" = "(por %d dias)";
+
+/* PassAddEditViewController */
+"Edit Pass" = "Edição do passe";
+"Add Pass" = "Adição do passe";
+"General Information" = "Informação Geral";
+"Pass Information" = "Informação do Passe";
+
+/* PassRenewDateViewController */
+"Renew on %@" = "Renovação em %@";
+
+/* MontlyPassRenewDateViewController */
+"Valid Until %@" = "Valido até %@";
+
+/* PhotoSelectorViewController */
+"Used in %d %@" = "Usada em %d %@";
+"pass" = "passe";
+"passes" = "passes";
+"If photo to be removed is in use by some pass, it will be replaced with default photo." = "Se a foto a ser apagada estiver associada ao passe, esse passará a ter a foto por omissão.";
+"%@ doesn't have permission to access photos from your photo album. You can give these permissions in Settings App." = "%@ não tem permissões para aceder ao seu álbum de fotos. Pode activar as permissões através da aplicação Definições.";
+
+/* UserPhotoViewControllerViewController */
+"Local Photo" = "Repositório local";
+"Select Owner's Photo" = "Selecione a Foto do Proprietário";
+"Take new photo" = "Tirar uma nova foto";
+"Choose photo from album" = "Escolher a foto do álbum de fotos";
+"Choose photo from local library" = "Escolher a foto do repositório local";
+"Cancel" = "Cancelar";
+"Ok" = "Ok";
+"Photo Albums" = "Álbuns de Fotos";
+"(%d) Photos" = "(%d) Fotos";
+"Album - %@" = "Álbum - %@";
+
+/* MainView e Details */
+"Pass Notifier" = "Lembrete de Passes";
+"Unknown Company" = "Empresa Desconhecida";
+"ButtonRenew" = "ButtonRenew_PT";
+"ButtonTicket" = "ButtonTicket_PT";
+"Tap information button to add new passes." = "Toque no botão de informações para adicionar novos passes.";
+
+/* Push notification */
+"View" = "Ver";
+"Validation date is near, for %@ pass." = "Data de validação próxima para o passe de %@.";//"A data de validação do passe para %@ está próxima.";

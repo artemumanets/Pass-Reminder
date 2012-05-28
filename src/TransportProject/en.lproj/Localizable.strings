@@ -1,0 +1,84 @@
+/* 
+  Localizable.strings
+  TransportProject
+
+  Created by Artem Umanets on 3/17/12.
+  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+*/
+
+"AppName" = "Pass Reminder";
+
+/* Config Cells */
+"Transportation Type (%@)" = "Transportation type (%@)";
+"Owner" = "Owner";
+"Owner's name" = "Owner's name";
+"Owner's Photo" = "Owner's photo";
+"Company" = "Company";
+"Company Name" = "Company name";
+"Renew" = "Renew";
+"Never" = "Never";
+"Renew Date" = "Renew Date";
+"Pass Type" = "Pass type";
+"Monthly" = "Monthly";
+"Tickets" = "Tickets";
+"Valid Until" = "Valid until";
+"Pass Expiration Date" = "Pass expiration date";
+"No. of Trips" = "No. of trips";
+"Number of Trips" = "Number of trips";
+
+/* Transportation Types */
+"Transportation type" = "Transportation type";
+"Bus" = "Bus";
+"Train" = "Train";
+"Subway" = "Subway";
+"Boat" = "Boat";
+"Tram" = "Tram";
+"Plane" = "Plane";
+
+/* Utils formatting */
+"(for 0 days)" = "(for 0 days)";
+"(for 1 day)" = "(for 1 day)";
+"(for %d days)" = "(for %d days)";
+
+/* PassAddEditViewController */
+"Edit Pass" = "Edit pass";
+"Add Pass" = "Add pass";
+"General Information" = "General Information";
+"Pass Information" = "Pass Information";
+
+/* PassRenewDateViewController */
+"Renew on %@" = "Renew on %@";
+
+/* MontlyPassRenewDateViewController */
+"Valid Until %@" = "Valid until %@";
+
+/* PhotoSelectorViewController */
+"Used in %d %@" = "Used in %d %@";
+"pass" = "pass";
+"passes" = "passes";
+"If photo to be removed is in use by some pass, it will be replaced with default photo." = "If photo to be removed is in use by some pass, it will be replaced with default photo.";
+"%@ doesn't have permission to access photos from your photo album. You can give these permissions in Settings App." = "%@ doesn't have permission to access photos from your photo album. You can grant these permissions in Settings App.";
+
+/* UserPhotoViewControllerViewController */
+"Local photo" = "Local photo";
+"Select Owner's Photo" = "Select Owner's Photo";
+"Take new photo" = "Take new photo";
+"Choose photo from album" = "Choose photo from album";
+"Choose photo from local library" = "Choose photo from local library";
+"Cancel" = "Cancel";
+"Ok" = "Ok";
+"Photo Albums" = "Photo Albums";
+"(%d) Photos" = "(%d) Photos";
+"Album - %@" = "Album - %@";
+
+/* MainView e Details */
+"Pass Notifier" = "Pass Reminder";
+"Unknown Company" = "Unknown Company";
+"ButtonRenew" = "ButtonRenew_EN";
+"ButtonTicket" = "ButtonTicket_EN";
+"Tap information button to add new passes." = "Tap information button to add new passes.";
+
+/* Push notification */
+"View" = "View";
+"Validation date is near, for %@ pass." = "Validation date is near, for %@ pass.";
+

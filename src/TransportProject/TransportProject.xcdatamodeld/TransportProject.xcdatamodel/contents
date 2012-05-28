@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Owner" representedClassName="Owner" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pass" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Pass" inverseName="owner" inverseEntity="Pass" syncable="YES"/>
+        <relationship name="photo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Photo" inverseName="owner" inverseEntity="Photo" syncable="YES"/>
+    </entity>
+    <entity name="Pass" representedClassName="Pass" syncable="YES">
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateCardRenew" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dateMontlyRenew" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isMontlyPass" attributeType="Boolean" syncable="YES"/>
+        <attribute name="numOfTrips" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="order" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="passId" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="owner" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Owner" inverseName="pass" inverseEntity="Owner" syncable="YES"/>
+        <relationship name="transportType" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TransportType" inverseName="pass" inverseEntity="TransportType" syncable="YES"/>
+    </entity>
+    <entity name="Photo" representedClassName="Photo" syncable="YES">
+        <attribute name="dateCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="photoData" attributeType="Binary" syncable="YES"/>
+        <attribute name="photoThumbnail" attributeType="Binary" syncable="YES"/>
+        <relationship name="owner" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Owner" inverseName="photo" inverseEntity="Owner" syncable="YES"/>
+    </entity>
+    <entity name="Settings" representedClassName="Settings" syncable="YES">
+        <attribute name="selectedPassOrder" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="TransportType" representedClassName="TransportType" syncable="YES">
+        <attribute name="desc" attributeType="String" syncable="YES"/>
+        <attribute name="order" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="pass" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pass" inverseName="transportType" inverseEntity="Pass" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Owner" positionX="207" positionY="-198" width="128" height="90"/>
+        <element name="Pass" positionX="-72" positionY="-198" width="128" height="180"/>
+        <element name="Photo" positionX="151" positionY="45" width="128" height="105"/>
+        <element name="Settings" positionX="-72" positionY="-6" width="128" height="60"/>
+        <element name="TransportType" positionX="-297" positionY="-198" width="128" height="90"/>
+    </elements>
+</model>
